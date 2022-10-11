@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/onBoarding1Fragment">
+
+    <fragment
+        android:id="@+id/launchScreenFragment"
+        android:name="ru.mokita.wsrfoood.ui.launch.LaunchScreenFragment"
+        android:label="fragment_launch_screen"
+        tools:layout="@layout/fragment_launch_screen" />
+    <fragment
+        android:id="@+id/onBoarding1Fragment"
+        android:name="ru.mokita.wsrfoood.ui.onBoarding.OnBoardingFragment"
+        android:label="fragment_on_boarding1"
+        tools:layout="@layout/fragment_on_boarding1" />
+</navigation>
