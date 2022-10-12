@@ -14,5 +14,5 @@
         android:id="@+id/onBoarding1Fragment"
         android:name="ru.mokita.wsrfoood.ui.onBoarding.OnBoardingFragment"
         android:label="fragment_on_boarding1"
-        tools:layout="@layout/fragment_on_boarding1" />
+        tools:layout="@layout/fragment_on_boarding" />
 </navigation>

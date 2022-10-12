@@ -50,7 +50,7 @@ dependencies {
     implementation "dev.chrisbanes.insetter:insetter:0.6.1"
 
 
-    implementation 'me.relex:circleindicator:2.1.6'
+    implementation "com.tbuonomo:dotsindicator:4.3"
 
     // Navigation
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
