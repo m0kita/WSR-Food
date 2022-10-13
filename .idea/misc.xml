@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Blackhole/Develop/Projects/WSR-Food/app/src/main/res/drawable/on_boarding_first_image.xml" value="0.1" />
+        <entry key="..\:/Blackhole/Develop/Projects/WSR-Food/app/src/main/res/drawable/on_boarding_second_image.xml" value="0.1" />
         <entry key="..\:/Blackhole/Develop/Projects/WSR-Food/app/src/main/res/layout/fragment_on_boarding.xml" value="0.18" />
+        <entry key="..\:/Blackhole/Develop/Projects/WSR-Food/app/src/main/res/layout/fragment_on_boarding_first.xml" value="0.3578125" />
+        <entry key="..\:/Blackhole/Develop/Projects/WSR-Food/app/src/main/res/layout/fragment_on_boarding_second.xml" value="0.25" />
         <entry key="app/src/main/res/drawable/ellipse.xml" value="0.2888157894736842" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23055555555555557" />
         <entry key="app/src/main/res/layout/fragment_launch_screen.xml" value="0.2758957654723127" />
