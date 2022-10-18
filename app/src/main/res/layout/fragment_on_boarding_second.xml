@@ -2,28 +2,28 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/orange"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/orange"
     tools:context=".ui.onBoarding.onBoardingSecond.OnBoardingSecondFragment">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
-        android:layout_marginBottom="70dp"
         android:src="@drawable/on_boarding_second_image"
-        app:layout_constraintBottom_toTopOf="@+id/materialButton2"
-        app:layout_constraintEnd_toEndOf="@+id/materialButton"
-        app:layout_constraintStart_toStartOf="@+id/materialButton2" />
+        app:layout_constraintBottom_toTopOf="@+id/btnSignIn"
+        app:layout_constraintEnd_toEndOf="@+id/btnSignUp"
+        app:layout_constraintStart_toStartOf="@+id/btnSignIn" />
 
     <com.google.android.material.button.MaterialButton
-        android:layout_marginStart="15dp"
-        android:id="@+id/materialButton2"
+        android:id="@+id/btnSignIn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
         android:backgroundTint="@color/white"
         android:fontFamily="@font/italianno"
         android:paddingVertical="24dp"
@@ -32,12 +32,12 @@
         android:textSize="24sp"
         app:cornerRadius="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/materialButton"
+        app:layout_constraintEnd_toStartOf="@+id/btnSignUp"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton"
+        android:id="@+id/btnSignUp"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
@@ -51,6 +51,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/materialButton2" />
+        app:layout_constraintStart_toEndOf="@+id/btnSignIn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

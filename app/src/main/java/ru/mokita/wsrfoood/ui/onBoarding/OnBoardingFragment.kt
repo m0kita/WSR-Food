@@ -13,12 +13,12 @@ import ru.mokita.wsrfoood.ui.onBoarding.onBoardingFirst.OnBoardingFirstFragment
 class OnBoardingFragment : Fragment() {
 
     private var _binding: FragmentOnBoardingBinding? = null
-    val binding get() = _binding!!
+    private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentOnBoardingBinding.inflate(inflater, container, false)
         return binding.root
     }
@@ -31,5 +31,10 @@ class OnBoardingFragment : Fragment() {
     private fun setupViewPager() {
         binding.vpOnBoarding.adapter = OnBoardingAdapter(requireActivity())
         binding.dotsIndicator.attachTo(binding.vpOnBoarding)
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        _binding = null
     }
 }
